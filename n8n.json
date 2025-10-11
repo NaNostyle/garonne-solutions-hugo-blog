@@ -1,0 +1,19 @@
+{
+  "parameters": {
+    "url": "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent",
+    "method": "POST",
+    "sendHeaders": true,
+    "headerParameters": {
+      "parameters": [
+        { "name": "x-goog-api-key", "value": "AIzaSyCApfBzg6fSJe1xzGW1la0l8ZhEv3sicUA" },
+        { "name": "Content-Type", "value": "application/json" }
+      ]
+    },
+    "sendBody": true,
+    "bodyParametersJson": "{\n  \"contents\": [\n    {\n      \"parts\": [\n        {\n          \"text\": \"Create a picture of a nano banana dish in a fancy restaurant with a Gemini theme\"\n        }\n      ]\n    }\n  ]\n}"
+  },
+  "type": "n8n-nodes-base.httpRequest",
+  "typeVersion": 4.2,
+  "position": [500, 300],
+  "name": "Gemini Image Generation"
+}
